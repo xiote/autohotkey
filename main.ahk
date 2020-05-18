@@ -1,4 +1,4 @@
 #SingleInstance force
-F1::
-MsgBox, гоюл
-return
+
+LWin::LCtrl
+RWin::RCtrl

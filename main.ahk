@@ -1,4 +1,12 @@
-#SingleInstance force
+#SingleInstance force 
 
 LWin::LCtrl
-RWin::RCtrl
+RWin::RCtrl 
+CapsLock::LShift
+Enter::RShift
+
+^n:: send {Down}
+^p:: send {Up}
+^m:: send {enter}
+^`;:: send {:}
+

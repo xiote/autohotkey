@@ -9,4 +9,4 @@ Enter::RShift
 ^p:: send {Up}
 ^m:: send {enter}
 ^`;:: send {:}
-
+RShift & f:: send {-}

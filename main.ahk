@@ -4,16 +4,18 @@ CapsLock::LShift
 Enter::RShift
 
 
-#z::send ^z
-#x::send ^x
-#c::send ^c
-#v::send ^v
+#z::send, ^z
+#x::send, ^x
+#c::send, ^c
+#v::send, ^v
 
-#[::send ^[
+#f::send, ^f
 
-#n:: send {Down}
-#p:: send {Up}
-#m:: send {enter}
-#`;:: send {:}
+#[::send, ^[
 
-RShift & f:: send {-}
+#n:: send, {Down}
+#p:: send, {Up}
+#m:: send, {enter}
+#`;:: send, {:}
+
+RShift & f:: send, {-}

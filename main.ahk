@@ -12,6 +12,7 @@ Enter::RShift
 #f::send, ^f
 
 #[::send, ^[
+#'::send, ^[
 
 #n:: send, {Down}
 #p:: send, {Up}

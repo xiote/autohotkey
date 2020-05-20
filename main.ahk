@@ -1,12 +1,19 @@
 #SingleInstance force 
 
-LWin::LCtrl
-RWin::RCtrl 
 CapsLock::LShift
 Enter::RShift
 
-^n:: send {Down}
-^p:: send {Up}
-^m:: send {enter}
-^`;:: send {:}
+
+#z::send ^z
+#x::send ^x
+#c::send ^c
+#v::send ^v
+
+#[::send ^[
+
+#n:: send {Down}
+#p:: send {Up}
+#m:: send {enter}
+#`;:: send {:}
+
 RShift & f:: send {-}
